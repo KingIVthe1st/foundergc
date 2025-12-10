@@ -9,8 +9,11 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
 
-  // Base path if deploying to a subdirectory (update if needed)
-  // basePath: '/foundergc',
+  // Base path for GitHub Pages subdirectory deployment
+  basePath: '/foundergc',
+
+  // Asset prefix for GitHub Pages
+  assetPrefix: '/foundergc/',
 
   // Trailing slash for static export compatibility
   trailingSlash: true,
